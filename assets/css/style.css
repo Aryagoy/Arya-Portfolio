@@ -290,6 +290,13 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   right: 0;
 }
+
+.btn02 img {
+  width: 100%; /* Ensures the image takes up the full width of the container */
+  height: 200px; /* You can adjust the height to match your design */
+  object-fit: cover; /* Ensures the image retains its aspect ratio and fills the container */
+  border-radius: 5px; /* Optional: Adds rounded corners to images */
+}
 #hero::before {
   background-image: initial;
   background-color: rgba(24, 26, 27, 0.8);
